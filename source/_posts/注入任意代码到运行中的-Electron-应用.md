@@ -21,7 +21,7 @@ Electron 这玩意儿是开发起来爽，用起来想吐。不知不觉电脑�
 
 本来想在 Windows 下面演示。我的 Windows 开了 OneDrive 同步，直接触发了一个 bug。
 
-![](/file/注入任意代码到运行中的Electron应用/10-1690068002.png)
+![](/hexo/file/注入任意代码到运行中的Electron应用/10-1690068002.png)
 
 还是继续 Mac。
 
