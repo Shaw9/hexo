@@ -34,12 +34,12 @@ jobs:
       - name: Generate Hexo static files 
         run: npx hexo generate
 
-      # # Step 5：部署到 gh-pages 分支
-      # - name: Deploy to gh-pages
-      #   uses: peaceiris/actions-gh-pages@v3
-      #   with:
-      #     personal_token: ${{ secrets.PERSONAL_TOKEN }}
-      #     publish_branch: gh-pages
-      #     publish_dir: ./public
-      #     user_name: Shaw9
-      #     user_email: 1295301019@qq.com
+      # Step 5：部署到 gh-pages 分支
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./public
+          user_name: Shaw9
+          user_email: 1295301019@qq.com
