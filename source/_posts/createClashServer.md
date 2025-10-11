@@ -14,10 +14,10 @@ categories:
     - Microsoft Azure 订阅
     - 腾讯云
 2. 一个域名
-    1.  在{% btn 'https://www.spaceship.com/',这里 %}获取一个域名
+    1.  在[这里](https://www.spaceship.com/)获取一个域名
     
 3. 一个SSL证书
-    1. 参考：{% btn 'https://www.runoob.com/http/ssl-certbot.html',这里 %}
+    1. 参考：[这里](https://www.runoob.com/http/ssl-certbot.html)
 
 
 ### 具体步骤
