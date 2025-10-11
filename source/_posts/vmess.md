@@ -36,7 +36,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/xyz690/v2ray/master/install.
 然后打开设置，确认这两个参数：
 <img src="/file/vmess/3f59facaa8c84414920cc6a52b7ab959~tplv-k3u1fbpfcp-zoom-in-crop-mark_1512_0_0_0.webp"></img>
 点击确定，接下来下载SSTAP(游戏加速器)，链接如下
-{% btn '/file/vmess/SSTap-beta-setup-1.0.9.7.exe',这里 %}
+<a href="/file/vmess/SSTap-beta-setup-1.0.9.7.exe">这里</a>
 安装SSTAP
 下载后，运行SSTAP.exe程序,选择添加socks5：
 <img src="/file/vmess/2599aa508b86439fa193f3b22aaba1ca~tplv-k3u1fbpfcp-zoom-in-crop-mark_1512_0_0_0.webp"></img>
