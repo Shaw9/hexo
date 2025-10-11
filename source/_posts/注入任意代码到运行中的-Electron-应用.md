@@ -21,7 +21,7 @@ Electron 这玩意儿是开发起来爽，用起来想吐。不知不觉电脑�
 
 本来想在 Windows 下面演示。我的 Windows 开了 OneDrive 同步，直接触发了一个 bug。
 
-<img src="/file/注入任意代码到运行中的Electron应用/10-1690068002.png"></img>
+![](/file/注入任意代码到运行中的Electron应用/10-1690068002.png)
 
 还是继续 Mac。
 
@@ -47,13 +47,13 @@ https://github.com/nodejs/node/blob/9dd574c9e232/src/node_process_methods.cc#L34
 应该不会被终端安全软件放过吧……
 
 开启了调试之后就可以在 Chrome 的里看到远程调试目标了：
-<img src="/file/注入任意代码到运行中的Electron应用/9-1690068003.png"></img>
-<img src="/file/注入任意代码到运行中的Electron应用/2-1690068003.jpg"></img>
+![](/file/注入任意代码到运行中的Electron应用/9-1690068003.png)
+![](/file/注入任意代码到运行中的Electron应用/2-1690068003.jpg)
 然后就可以整活了
 ```javascript
 require('electron').webContents.getAllWebContents()  .forEach(c => c.loadURL('javascript:alert(location)'))
 ```
-<img src="/file/注入任意代码到运行中的Electron应用/1-1690068004.png"></img>
+![](/file/注入任意代码到运行中的Electron应用/1-1690068004.png)
 想注入二进制模块？写一个 dll，process.dlopen 一下。
 
 这是框架的特性，不是安全边界。毕竟都能运行任意本地代码了，能干的事情太多了。但如果你很介意进程被人乱插代码，可能在用 Electron 之前要好好考虑一番。
