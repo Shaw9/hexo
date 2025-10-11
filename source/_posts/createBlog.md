@@ -54,7 +54,7 @@ hexo init
 > 访问 http://【服务器IP】:4000 即可看到 hexo 博客
 
 ### 8. 安装Butterfly主题
-点击进入 {% btn 'https://butterfly.js.org/posts/21cfbf15/', 官方教程 %}
+点击进入 <a href="https://butterfly.js.org/posts/21cfbf15/">Butterfly官方教程</a>
 在你的 Hexo 根目录内
 
 ```bash
