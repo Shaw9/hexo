@@ -59,3 +59,9 @@ require('electron').webContents.getAllWebContents()  .forEach(c => c.loadURL('ja
 这是框架的特性，不是安全边界。毕竟都能运行任意本地代码了，能干的事情太多了。但如果你很介意进程被人乱插代码，可能在用 Electron 之前要好好考虑一番。
 
 原文始发于微信公众号（非尝咸鱼贩）：<a href="http://mp.weixin.qq.com/s?__biz=Mzk0NDE3MTkzNQ==&mid=2247484978&idx=1&sn=66093e09d019287993832fcf0ccf4b9f&chksm=c329f8c2f45e71d4136ca80d5d2202c3b65787c3301ec5e0b2f8cb665b9d3f4e8f20635466ad&scene=126&sessionid=1690067728&key=094fe642087a4fbebe4ac351df4002d33aee61f1b95df257e6df0bd42e4f23d43e483019cf2d0c2e4f1fceecb1df646aadd7b18ee7c5a9431307849cfccc76d6b212500b6c248b444721a62f3ff0738a666a1fe2d6b165278057efd0fd4e05e8f3b04e6d48ec7256f22730ef6605df7ac11ff4ae0ef1ef7553fb1926dc6225bb&ascene=15&uin=NTY2NTA4NjQ%3D&devicetype=Windows+10+x64&version=63060012&lang=zh_CN&session_us=gh_27a9807720aa&countrycode=AL&exportkey=n_ChQIAhIQl2czSMgDtRz13KuutfjOHBLuAQIE97dBBAEAAAAAANwROfNmBGkAAAAOpnltbLcz9gKNyK89dVj0PcYrosLn3Gzgwykh6CfnIBOR3kPWtq07zx%2Fdyk9xQAjA2nUidEW4uw%2FFMykYXAY7LkZZr13uUR%2BLgAwv84rYy39yiE12uMTxL8jzcXOWAsan19tar83jIDMg2MRTwL0zSWCjoUJ2%2FWUeK13jTjebXiRWeCfPxX2sNYvJP7KESRDP3rjGdSDoIzvCqy8o1AYrqVb2o4vytO9%2BL7%2BdQV4OK%2B%2FnE5KUe2K6HuMtmhI%2FXci7WRGCn6s6%2FgeY4eM95ZSzCfupLRjRgJQ%3D&acctmode=">注入任意代码到运行中的 Electron 应用</a>
+
+```text
+注：原文发布于 2023 年 7 月 14 日，距今已有 1 年多时间，可能已经过时。
+
+```
+
