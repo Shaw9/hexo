@@ -62,6 +62,6 @@ require('electron').webContents.getAllWebContents()  .forEach(c => c.loadURL('ja
 
 ```text
 注：原文发布于 2023 年 7 月 14 日，距今已有 1 年多时间，可能已经过时。
-
+且经过亲自测试，网易云音乐 已经不可用了，无法使用该方式更改程序的内容。。。。并且插件也不可用
 ```
 
