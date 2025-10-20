@@ -1,6 +1,6 @@
 ---
 layout: 跳过windows
-title: OOBE的方式
+title: 跳过windowsOOBE的方式
 date: 2025-10-19 18:30:26
 tags:
 ---
